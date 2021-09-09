@@ -14,7 +14,6 @@ body {
   align-items: center;
   margin: auto;
   padding: 1rem 0.5rem;
-  gap: 1.5rem;
   max-width: 455px;
   height: 100vh;
   transition: all 0.3s;
@@ -188,35 +187,39 @@ li {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .main-header .info {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  margin-bottom: 1.5rem;
 }
 
 .info .theme-menu {
   display: flex;
   align-items: flex-end;
-  gap: 1.5rem;
 }
 
 .theme-menu > .small-text {
   margin-bottom: 2px;
+  margin-right: 1.5rem;
 }
 
 .theme-menu .toggle-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
 }
 
 .toggle-menu .toggle-numbers {
   display: flex;
-  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.toggle-numbers .small-text:not(:last-child) {
+  margin-right: 1rem;
 }
 
 /* Toggle bar */
@@ -227,8 +230,11 @@ li {
   position: relative;
 
   display: flex;
-  gap: 0.5rem;
   transition: all 0.3s;
+}
+
+.toggle-bar input:not(:last-of-type) {
+  margin-right: 0.5rem;
 }
 
 .toggle-bar .custom-radio {
@@ -371,11 +377,11 @@ li {
   body {
     max-width: 700px;
     padding: 0.5rem;
-    gap: 0.7rem;
   }
 
   .main-header {
     position: relative;
+    margin-bottom: 0.7rem;
   }
 
   .main-header .info {
@@ -389,13 +395,16 @@ li {
 
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
+    margin-bottom: 0;
   }
 
   .info .theme-menu {
-    gap: 1rem;
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .theme-menu .toggle-menu {
+    margin-bottom: 1rem;
   }
 
   .keys {
@@ -447,14 +456,16 @@ li {
 
 @media (max-height: 334px) {
   body {
-    gap: .5rem;
     padding-top: .3rem;
+  }
+
+  .main-header {
+    margin-bottom: 0.5rem;
   }
 
   .main-header .info {
     top: 92px;
     height: 187px;
-    gap: 3.5rem;
   }
 
   .screen {
