@@ -38,13 +38,13 @@ Users should be able to:
 ![](./img/mobile-rotated-theme-1.png)
 
 - I you want to see other themes, see the `img` folder
-- Visit the application [here](https://usmonbek-umarbekovich.github.io/Calculator-App-Main/)
+- Visit the application [here](https://usmonbek-calculator.netlify.app)
 
 
 ### Links
 
 - Solution URL: [Solution](https://github.com/usmonbek-umarbekovich/Calculator-App-Main)
-- Live Site URL: [Live Site](https://usmonbek-umarbekovich.github.io/Calculator-App-Main/)
+- Live Site URL: [Live Site](https://usmonbek-calculator.netlify.app)
 
 ## My process
 
@@ -62,5 +62,6 @@ Use this section to recap over some of your major learnings while working throug
 
 ## Author
 
-- GitHub - [Usmonbek Rustamov](https://github.com/usmonbek-umarbekovich)
+- Website - [Usmonbek Rustamov](https://www.usmonbek.netlify.com)
+- GitHub - [usmonbek-umarbekovich](https://github.com/usmonbek-umarbekovich)
 - Frontend Mentor - [@usmonbek-umarbekovich](https://www.frontendmentor.io/profile/usmonbek-umarbekovich)
