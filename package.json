@@ -1,0 +1,34 @@
+{
+  "name": "calculator-app-main",
+  "version": "1.0.0",
+  "description": "Calculator",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmonbek-umarbekovich/Calculator-App-Main.git"
+  },
+  "keywords": [
+    "Calculator",
+    "CSS",
+    "HTML",
+    "JavaScript"
+  ],
+  "author": "Usmonbek Rustamov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmonbek-umarbekovich/Calculator-App-Main/issues"
+  },
+  "homepage": "https://github.com/usmonbek-umarbekovich/Calculator-App-Main#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/img/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <script src="./src/script.js" type="module"></script>
+    <title>Calculator App</title>
+  </head>
+  <body class="theme-1">
+    <header class="main-header">
+      <div class="info">
+        <p class="logo">calc</p>
+        <div class="theme-menu">
+          <p class="small-text">theme</p>
+          <div class="toggle-menu">
+            <div class="toggle-numbers">
+              <p class="small-text">1</p>
+              <p class="small-text">2</p>
+              <p class="small-text">3</p>
+            </div>
+            <div class="toggle-bar">
+              <input type="radio" name="theme" value="1" />
+              <input type="radio" name="theme" value="2" />
+              <input type="radio" name="theme" value="3" />
+              <div class="custom-radio"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen">
+        <input type="text" class="content" placeholder="" readonly />
+        <p class="error hidden"></p>
+      </div>
+    </header>
+
+    <main class="keys">
+      <ul class="key-items">
+        <!--
+        numbers
+        <li class="small-key number" data-number="9">9</li>
+        ........
+        <li class="small-key number" data-number="0">0</li>
+
+        operations
+        <li class="small-key operation" data-operation="plus">+</li>
+        <li class="small-key operation" data-operation="min">-</li>
+        <li class="small-key operation" data-operation="mul">x</li>
+        <li class="small-key operation" data-operation="div">/</li>
+        
+        features
+        <li class="small-key delete">del</li>
+        <li class="big-key reset">reset</li>
+        <li class="big-key equal">=</li>
+        -->
+      </ul>
+    </main>
+  </body>
+</html>
