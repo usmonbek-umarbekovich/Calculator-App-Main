@@ -317,7 +317,7 @@ li {
 /* TEMPORARY */
 .key-items {
   display: grid;
-  gap: 1.5rem;
+  grid-gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     'n-7 n-8 n-9 del'
@@ -359,7 +359,7 @@ li {
     padding: 1rem;
   }
   .key-items {
-    gap: 1rem;
+    grid-gap: 1rem;
   }
 }
 
@@ -369,7 +369,7 @@ li {
   }
 
   .key-items {
-    gap: 1rem 0.65rem;
+    grid-gap: 1rem 0.65rem;
   }
 }
 
@@ -414,7 +414,7 @@ li {
   }
 
   .key-items {
-    gap: 0.7rem 1rem;
+    grid-gap: 0.7rem 1rem;
     grid-template-columns: repeat(4, 1fr) 0.7fr;
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
