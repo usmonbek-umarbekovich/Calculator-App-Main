@@ -25,10 +25,12 @@
   },
   "homepage": "https://github.com/usmonbek-umarbekovich/Calculator-App-Main#readme",
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
     "@parcel/transformer-image": "^2.0.0-rc.0",
     "parcel": "^2.0.0-rc.0"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/runtime-corejs3": "^7.15.4"
   }
 }
